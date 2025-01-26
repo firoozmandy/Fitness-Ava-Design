@@ -48,7 +48,7 @@ const Footer = () => {
         <div className="mt-16 basis-1/4 md:mt-0 text-[#484242] text-base font-normal">
           <h4 className="font-semibold text-xl text-[#000]"> Contact us </h4>
           <div className="flex flex-row items-center w-52 gap-3">
-            <img src={vectorSvg} className="w-5 h-5" alt="vectorSvg" />
+            {/* <img src={vectorSvg} className="w-5 h-5" alt="vectorSvg" /> */}
             <p className="my-5"> +88 1730 116 399 </p>
           </div>
           <img src={gmail2} alt="gmail" className="" />
