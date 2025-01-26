@@ -3,14 +3,11 @@ import { motion } from "framer-motion";
 import { SelectedPage } from "../../shared/types";
 import AboutImage from "../../assets/About image.png";
 
-
 type Props = {
   setSelectedPage: React.Dispatch<React.SetStateAction<SelectedPage>>;
 };
 
 function AboutUs({ setSelectedPage }: Props) {
-
-
   return (
     <section
       id="aboutUs"
@@ -59,7 +56,6 @@ function AboutUs({ setSelectedPage }: Props) {
           alt="AboutImage"
         />
       </motion.div>
-    
     </section>
   );
 }
