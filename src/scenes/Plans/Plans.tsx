@@ -72,7 +72,7 @@ const Plans = ({ setSelectedPage }: Props) => {
                   }}
                 >
                   <HText>
-                    <span className="textPlans text-[56px]  ">
+                    <span className="textPlans md:text-[56px] text-[46px]  ">
                       MAKES YOU MORE ACTIVE AND IMPROVE MOODS{" "}
                     </span>
                   </HText>
@@ -127,8 +127,8 @@ const Plans = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <span className="textPlans text-[56px] md:mx-0"> OUR TRAINING PARAMS </span>
-          <p className="text-[#909090] w-[330px] md:ml-[620px] md:-mt-14">
+          <span className="textPlans md:text-[56px] text-[46px] ml-20 md:mx-0"> OUR TRAINING PARAMS </span>
+          <p className="text-[#909090] md:w-[330px] md:ml-[620px] ml-20 md:-mt-14">
             Join our community today and start your journey towards a better,
             healthier you!
           </p>

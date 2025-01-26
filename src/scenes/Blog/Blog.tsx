@@ -30,7 +30,7 @@ function Blog({ setSelectedPage }: Props) {
           <div className=" mb-20 md:py-44">
             {/* {title} */}
             <div className="flex ">
-              <div className="before:absolute before:-top-20 before:-left-20 before:-z-[1] before:content-abstractwaves">
+              <div className="before:absolute before:-top-20 before:-left-10 before:-z-[1] before:content-abstractwaves">
                 <motion.div
                   className=""
                   initial="hidden"
@@ -43,7 +43,7 @@ function Blog({ setSelectedPage }: Props) {
                   }}
                 >
                   <HText>
-                    <span className="textPlans font-extrabold text-[50px] ">WHAT OUR TRAINEES SAY</span>
+                    <span className=" textPlans font-extrabold md:text-[50px] text-[40px] ">WHAT OUR TRAINEES SAY</span>
                   </HText>
                 </motion.div>
               </div>
