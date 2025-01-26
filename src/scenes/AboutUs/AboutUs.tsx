@@ -15,7 +15,7 @@ function AboutUs({ setSelectedPage }: Props) {
     >
       <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.AboutUs)}>
         <motion.div
-          className="md:mx-32 mx-28 -mt-14 flex flex-col"
+          className="md:mx-32 mx-14 -mt-14 flex flex-col"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -28,7 +28,7 @@ function AboutUs({ setSelectedPage }: Props) {
           <span className="textPlans md:text-[42px] text-[27px] font-black">
             GET THE LATEST UPDATE FROM US
           </span>
-          <p className="md:w-full w-64 md:my-2 my-3 text-[#909090]">
+          <p className="md:w-full w-52 md:my-2 my-3 text-[#909090]">
             Join our mailing list by entering your email for exclusive
             information
           </p>

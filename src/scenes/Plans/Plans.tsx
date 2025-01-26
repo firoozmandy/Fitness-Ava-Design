@@ -56,7 +56,7 @@ const Plans = ({ setSelectedPage }: Props) => {
           />
 
           {/* {description} */}
-          <div className="ml-20">
+          <div className="md:ml-20 ml-14">
             {/* {title} */}
             <div className="relative ">
               <div className="before:absolute before:-top-20 before:-left-20 before:-z-[1] before:content-abstractwaves">
@@ -127,8 +127,8 @@ const Plans = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <span className="textPlans md:text-[56px] text-[46px] ml-20 md:mx-0"> OUR TRAINING PARAMS </span>
-          <p className="text-[#909090] md:w-[330px] md:ml-[620px] ml-20 md:-mt-14">
+          <span className="textPlans md:text-[56px] text-[46px] ml-14 md:mx-0"> OUR TRAINING PARAMS </span>
+          <p className="text-[#909090] md:w-[330px] md:ml-[620px] ml-14 md:-mt-14">
             Join our community today and start your journey towards a better,
             healthier you!
           </p>

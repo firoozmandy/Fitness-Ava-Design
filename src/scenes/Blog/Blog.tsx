@@ -18,7 +18,7 @@ function Blog({ setSelectedPage }: Props) {
   return (
     <section id="blog" className="w-full ">
       <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Blog)}>
-        <div className="items-center mx-28 justify-between gap-20 md:-mt-10 md:flex">
+        <div className="items-center md:mx-28 mx-14 justify-between gap-20 md:-mt-10 md:flex">
           {/* {graphics} */}
           <img
             className="mx-auto md:-mt-52 size-2/6 opacity-0 md:opacity-100"
@@ -59,7 +59,7 @@ function Blog({ setSelectedPage }: Props) {
                 visible: { opacity: 1, x: 0 },
               }}
             >
-              <div className="text-[#909090] md:w-[430px] w-[300px]">
+              <div className="text-[#909090] md:w-[430px] w-[250px]">
                 <p className="my-5 ">
                   I absolutely love yoga classes offered by this gym! The
                   instructors are knowledgeable, the workouts are challenging,

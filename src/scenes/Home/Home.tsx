@@ -52,7 +52,7 @@ const Home = ({ setSelectedPage }: Props) => {
                 className=" opacity-0 md:opacity-100 w-20 md:w-[103.1px] flex flex-grow md:-mt-20 sm:ml-[440px] md:mx-60 mx-32 -mt-14"
               />
             </div>
-            <div className="w-80">
+            <div className="md:w-80 w-64">
               <p className="mt-5 text-sm text-[#909090]  ">
                 With our professional trainers, we will guide you with the best
                 program to help you get healthy and ideal body.
@@ -78,14 +78,14 @@ const Home = ({ setSelectedPage }: Props) => {
               onClick={() => setSelectedPage(SelectedPage.AboutUs)}
               href={`#${SelectedPage.AboutUs}`}
             >
-              <div className=" flex-shrink-0 flex text-[#000000]">
+              <div className="-ml-8 md:ml-0 flex-shrink-0 flex text-[#000000]">
                 <img src={videoCircle} alt="videoCircle" />
                 <img
                   src={VectorSvg}
                   alt="VectorSvg"
-                  className="ml-5 mt-4 absolute"
+                  className="md:ml-5 ml-5 mt-4 absolute"
                 />
-                <span className=" no-underline mt-4 ml-2">Watch Video</span>
+                <span className=" no-underline mt-4 md:ml-2 ml-0">Watch Video</span>
               </div>
             </AnchorLink>
           </motion.div>
