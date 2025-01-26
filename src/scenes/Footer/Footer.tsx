@@ -1,6 +1,6 @@
 import Logo from "@/assets/Logo.png";
 import Logo2 from "@/assets/Logo2.png";
-import vectorSvg from "@/assets/vector.png";
+import vectorSvg from "@/assets/vector.svg";
 import parande from "@/assets/parande.png";
 import faceBook from "@/assets/faceBook.png";
 import gmail from "@/assets/gmail.png";
