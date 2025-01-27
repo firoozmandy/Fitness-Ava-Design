@@ -3,8 +3,8 @@ import Logo2 from "@/assets/Logo2.png";
 // import vectorSvg from "@/assets/vector.svg";
 import parande from "@/assets/parande.png";
 import faceBook from "@/assets/faceBook.png";
-import gmail from "@/assets/gmail.png";
-import gmail2 from "@/assets/gmai2.png";
+import gmail from "@/assets/Envelope.png";
+// import gmail2 from "@/assets/gmai2.png";
 import insta1 from "@/assets/insta1.png";
 import insta2 from "@/assets/insta2.png";
 import insta3 from "@/assets/insta3.png";
@@ -51,9 +51,9 @@ const Footer = () => {
             {/* <img src={vectorSvg} className="w-5 h-5" alt="vectorSvg" /> */}
             <p className="my-5"> +88 1730 116 399 </p>
           </div>
-          <img src={gmail2} alt="gmail" className="" />
-          <div className="flex flex-row items-center gap-9 -my-[21px] mx-5">
-            <img src={gmail} className="-mx-5" alt="gmail " />
+          {/* <img src={gmail} alt="gmail" className="" /> */}
+          <div className="flex flex-row items-center gap-9 -my-[21px] mx-0">
+            <img src={gmail} className="" alt="gmail " />
             <p> Fitmoves@gmail.com </p>
           </div>
           <div className="flex flex-grow my-10 gap-3">

@@ -43,7 +43,9 @@ function Blog({ setSelectedPage }: Props) {
                   }}
                 >
                   <HText>
-                    <span className=" textPlans font-extrabold md:text-[50px] text-[40px] ">WHAT OUR TRAINEES SAY</span>
+                    <span className=" textPlans font-extrabold md:text-[50px] text-[40px] ">
+                      WHAT OUR TRAINEES SAY
+                    </span>
                   </HText>
                 </motion.div>
               </div>
@@ -69,7 +71,7 @@ function Blog({ setSelectedPage }: Props) {
                 <div className="mt-5">
                   <img className="w-24" src={EllipseImage} alt="Ellipse " />
                   <div className="-mt-24 ml-36">
-                    <span className="text-[#000] text-[26px] font-normal">
+                    <span className="text-[#000] text-[22px] font-normal">
                       Elizabeth Martinez
                     </span>
                     <p>Los Angeles , CA</p>
@@ -82,7 +84,6 @@ function Blog({ setSelectedPage }: Props) {
                     </div>
                   </div>
                 </div>
-    
               </div>
             </motion.div>
             {/* {button} */}
@@ -96,9 +97,9 @@ function Blog({ setSelectedPage }: Props) {
                 </button>
               </div>
             </div>
-          <div className="md:border-2 md:w-[828px] md:h-[300px] w-16 h-10 flex flex-grow md:-ml-[330px] md:-mt-44 opacity-[1%] md:opacity-[3%] md:text-[200px] md:leading-[300px]">
-                  TRAINING
-                </div>
+            <div className="md:border-2 md:w-[828px] md:h-[300px] w-16 h-10 flex flex-grow md:-ml-[330px] md:-mt-44 opacity-[1%] md:opacity-[3%] md:text-[200px] md:leading-[300px]">
+              TRAINING
+            </div>
           </div>
         </div>
       </motion.div>

@@ -51,13 +51,13 @@ function Navbar({ isTopOfPage, selectedPage, setSelectedPage }: Props) {
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
-                    page="AboutUs"
+                    page="About us"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
                 </div>
                 <div className={`${flexBetween} gap-8 ml-38 `}>
-                  <p className="leading-10 size-6 w-14">Sing In</p>
+                  <p className="leading-10 size-6 w-14">Sign In</p>
                   <ActionButton setSelectedPage={setSelectedPage}>
                     Start Free Trial
                   </ActionButton>

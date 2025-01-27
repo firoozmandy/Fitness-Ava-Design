@@ -23,7 +23,7 @@ const Benefit = ({ icon, title, description, setSelectedPage }: Props) => {
        {icon}
       </div>
 
-      <h4 className="font-semibold text-[#000] text-3xl">{title}</h4>
+      <h4 className="font-semibold text-[#000] text-2xl">{title}</h4>
       <p className="my-3 text-[#909090] text-sm">{description}</p>
       <div
         className="mx-auto w-[147px] h-[48px] rounded-xl border border-[#F77A40] text-center flex items-center justify-center hover:bg-[#F6DCCD]"
