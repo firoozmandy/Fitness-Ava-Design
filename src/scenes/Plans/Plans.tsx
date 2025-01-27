@@ -136,7 +136,7 @@ const Plans = ({ setSelectedPage }: Props) => {
         {/* {mini div} */}
 
         <motion.div
-          className="md:flex md:px-44 items-center flex flex-col md:flex-row justify-between gap-8 md:mt-5 mt-12 md:ml-0 "
+          className="md:flex md:px-44 items-center flex flex-col md:flex-row justify-between gap-8 md:mt-5 mt-12 md:-ml-10 "
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}

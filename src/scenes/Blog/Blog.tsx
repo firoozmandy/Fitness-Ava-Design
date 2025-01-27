@@ -18,10 +18,10 @@ function Blog({ setSelectedPage }: Props) {
   return (
     <section id="blog" className="w-full ">
       <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Blog)}>
-        <div className="items-center md:mx-28 mx-14 justify-between gap-20 md:-mt-10 md:flex">
+        <div className="items-center md:mx-36 mx-14 justify-between gap-20 md:-mt-10 md:flex">
           {/* {graphics} */}
           <img
-            className="mx-auto md:-mt-52 size-2/6 opacity-0 md:opacity-100"
+            className=" md:-mt-52 size-2/6 opacity-0 md:opacity-100"
             src={BlogImage}
             alt="Benefit-page"
           />
