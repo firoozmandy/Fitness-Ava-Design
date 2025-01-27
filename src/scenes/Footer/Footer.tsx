@@ -5,10 +5,10 @@ import parande from "@/assets/parande.png";
 import faceBook from "@/assets/faceBook.png";
 import gmail from "@/assets/Envelope.png";
 // import gmail2 from "@/assets/gmai2.png";
-import insta1 from "@/assets/insta1.png";
-import insta2 from "@/assets/insta2.png";
-import insta3 from "@/assets/insta3.png";
-
+import insta from "@/assets/InstagramLogo.png";
+import phoneLogo from "@/assets/Phone.png";
+// import insta2 from "@/assets/insta2.png";
+// import insta3 from "@/assets/insta3.png";
 
 const Footer = () => {
   return (
@@ -48,21 +48,17 @@ const Footer = () => {
         <div className="mt-16 basis-1/4 md:mt-0 text-[#484242] text-base font-normal">
           <h4 className="font-semibold text-xl text-[#000]"> Contact us </h4>
           <div className="flex flex-row items-center w-52 gap-3">
-            {/* <img src={vectorSvg} className="w-5 h-5" alt="vectorSvg" /> */}
+            <img src={phoneLogo} className="w-5 h-5" alt="vectorSvg" />
             <p className="my-5"> +88 1730 116 399 </p>
           </div>
           {/* <img src={gmail} alt="gmail" className="" /> */}
-          <div className="flex flex-row items-center gap-9 -my-[21px] mx-0">
+          <div className="flex flex-row items-center gap-9 -my-5 mx-0">
             <img src={gmail} className="" alt="gmail " />
-            <p> Fitmoves@gmail.com </p>
+            <p className="-mx-6"> Fitmoves@gmail.com </p>
           </div>
           <div className="flex flex-grow my-10 gap-3">
             <div className="bg-[#FA907D] w-9 h-9 rounded-lg flex items-center justify-center">
-              <img src={insta2} alt="in" />
-              <div className=" absolute">
-              <img src={insta3} alt="in" className="" />
-              <img src={insta1} alt="in" />
-              </div>
+              <img src={insta} alt="in" />
             </div>
             <div className="bg-[#FA907D] w-9 h-9 rounded-lg flex items-center justify-center">
               <img src={parande} alt="parande" />

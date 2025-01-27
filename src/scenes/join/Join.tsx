@@ -10,7 +10,7 @@ function Join() {
         </span>
 
         {/* md:w-44  ml-52  my-2 md:h-14 w-28  */}
-        <button className="flex flex-grow md:ml-[600px] md:-my-11 md:text-[20px] text-[12px] items-center justify-center mx-auto my-2 h-9 w-28 md:h-14 md:w-44 bg-[#F9F9F9] rounded-2xl text-[#F77A40] font-medium">Start Free Trial</button>
+        <button className="flex flex-grow md:ml-[680px] md:-my-11 md:text-[20px] text-[12px] items-center justify-center mx-auto my-2 h-9 w-28 md:h-14 md:w-44 bg-[#F9F9F9] rounded-2xl text-[#F77A40] font-medium">Start Free Trial</button>
       </div>
     </div>
   );
