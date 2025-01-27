@@ -51,7 +51,7 @@ function AboutUs({ setSelectedPage }: Props) {
         </motion.div>
         {/* -mt-80 ml-[760px] opacity-0 md:opacity-100 */}
         <img
-          className="opacity-0 md:opacity-100 md:mx-[800px] lg:mx-[950px] md:-my-[340px]"
+          className="opacity-0 md:opacity-100 md:mx-[800px] lg:mx-[600px] md:-my-[340px]"
           src={AboutImage}
           alt="AboutImage"
         />
